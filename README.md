@@ -1,2 +1,4 @@
-# Retail-Sales
-Retail sales documentation
+# Retail Sales
+![](images/retail-sales-introduction.png)
+
+---
