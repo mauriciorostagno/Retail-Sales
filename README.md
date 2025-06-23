@@ -18,6 +18,8 @@ Retailers use to face the challenge of handling a large quantity of data without
 
 This project addresses those needs through an end-to-end pipeline and a data storytelling dashboard, made for executive decisions.
 
+## Business Objectives
+
 
 
 
