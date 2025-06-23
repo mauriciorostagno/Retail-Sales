@@ -16,7 +16,9 @@ Retailers use to face the challenge of handling a large quantity of data without
 - Clear metrics around returns and customer retention.
 - A dashboard that provides both operational and marketing perspectives.
 
-This project addresses those needs through an end-to-end pipeline and a data storytelling dashboard, optimized for executive-level decision-making.
+This project addresses those needs through an end-to-end pipeline and a data storytelling dashboard, made for executive decisions.
+
+
 
 
 
