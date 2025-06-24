@@ -27,24 +27,36 @@ Measure customer retention analyzed, top buyers, revenue concentration (Pareto),
 All indicators and important information about trends in times when customers interact most and least with the company.
 
 ## Project Pipeline
-- Data Extraction:
-Dataset downloaded from Kaggle using the Kaggle API.
-API key (kaggle.json) configured manually on local environment.
 
-- Loading into DuckDB:
-CSV file loaded and transformed into a DuckDB database.
-Cleaned and structured using Python scripts (e.g., load_to_duckdb.py).
+### Data Extraction
+- Dataset named "tata-online-retail-dataset" downloaded from Kaggle using the Kaggle API.
+- API key created in the official website and kaggle.json configured manually on local environment.
+- Python file named "extract.py".
 
-- Transformation with DBT (SQL):
-Business logic applied through SQL-based transformations.
-Fact tables and derived KPIs created for analysis.
+### Loading into DuckDB
+- CSV file loaded and transformed into a DuckDB database.
+- Cleaned and structured using Python scripts.
+- Python file named "load_to_duckdb.py"
 
-- Exploratory Analysis (EDA):
-Conducted in Jupyter Notebook to validate and explore variables like sales trends, returns, and customer behavior.
+### Transformation with DBT (SQL)
+- Business logic applied through SQL-based transformations (e.g., "country" column data changed using CASE WHEN logic)
+- Also in python file named "load_to_duckdb.py"
 
-- Dashboard in Power BI:
-Dataset exported in Parquet format for optimal loading in Power BI.
-Dashboard designed for executive-level storytelling, with filters, tooltips, and performance indicators.
+### Exploratory Analysis (EDA)
+- Conducted in Jupyter Notebook to validate and explore variables like sales trends, returns, customer behavior and correlations between data.
+
+### Dashboard in Power BI
+- Dataset exported in PBIX format, as I do not have a premium account.
+- Dashboard designed for executive-level storytelling, different pages and performance indicators.
+
+## Skills / Concepts Demonstrated
+- End-to-end data pipeline creation (ETL/ELT)
+- Python scripting for automation
+- DuckDB as a fast, embedded analytical engine
+- SQL transformations with DBT
+- Exploratory Data Analysis (EDA) in Jupyter
+- Power BI visualization and DAX modeling
+- KPI creation: Return Rate, Customer Retention, CLV, Pareto
 
 
 
