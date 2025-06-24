@@ -59,8 +59,21 @@ All indicators and important information about trends in times when customers in
 - KPI creation: Return Rate, Customer Retention, CLV, Pareto, Peak Sales Hour, Top 5% Revenue, etc.
 
 ## Modelling
+<img src="images/model.png" alt="Schema" width="630"/>
+The model is a star schema. There are 1 dimension table (df), 1 calendar table and 2 fact table made only for different graphs and KPI's.
+
+## Visualization
+
+<img src="images/dashboard-frontpage.png" alt="Front Page" width="930"/>
+<img src="images/dashboard-salespage.png" alt="Sales Page" width="930"/>
+<img src="images/dashboard-customerpage.png" alt="Customer Page" width="930"/>
+<img src="images/dashboard-timepage.png" alt="Time Page" width="930"/>
 
 ## Dashboard Features
+
+
+
+
 
 ## Findings and Insights
 
