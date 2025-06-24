@@ -16,7 +16,48 @@ Retailers use to face the challenge of handling a large quantity of data without
 - Clear metrics around returns and customer retention.
 - A dashboard that provides both operational and marketing perspectives.
 
-This project addresses those needs through an end-to-end pipeline and a data storytelling dashboard, made for executive decisions.
+This project addresses those needs through an end-to-end pipeline and a data storytelling dashboard, made for long-term planning.
+
+## Business Objectives
+- Revenue Analysis
+  Revenue streams were analyzed by analyzing product performance, customer segments, key sales and return indicators, and contribution by country.
+- Customer Insights
+  Measure customer retention analyzed, top buyers, revenue concentration (Pareto), and calculate a basic Customer Lifetime Value (CLV) to support acquisition and loyalty strategies.
+- Time-Based Performance
+  All indicators and important information about trends in times when customers interact most and least with the company.
+
+## Project Pipeline
+- Data Extraction:
+Dataset downloaded from Kaggle using the Kaggle API.
+API key (kaggle.json) configured manually on local environment.
+
+- Loading into DuckDB:
+CSV file loaded and transformed into a DuckDB database.
+Cleaned and structured using Python scripts (e.g., load_to_duckdb.py).
+
+- Transformation with DBT (SQL):
+Business logic applied through SQL-based transformations.
+Fact tables and derived KPIs created for analysis.
+
+- Exploratory Analysis (EDA):
+Conducted in Jupyter Notebook to validate and explore variables like sales trends, returns, and customer behavior.
+
+- Dashboard in Power BI:
+Dataset exported in Parquet format for optimal loading in Power BI.
+Dashboard designed for executive-level storytelling, with filters, tooltips, and performance indicators.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Business Objectives
 
