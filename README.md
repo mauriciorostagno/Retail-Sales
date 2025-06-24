@@ -58,7 +58,17 @@ All indicators and important information about trends in times when customers in
 - Power BI visualization and DAX modeling
 - KPI creation: Return Rate, Customer Retention, CLV, Pareto, Peak Sales Hour, Top 5% Revenue, etc.
 
-## 
+## Modelling
+
+## Dashboard Features
+
+## Findings and Insights
+
+## Conclusion & Recommendations
+
+
+
+
 
 
 
