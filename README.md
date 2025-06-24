@@ -19,11 +19,11 @@ Retailers use to face the challenge of handling a large quantity of data without
 This project addresses those needs through an end-to-end pipeline and a data storytelling dashboard, made for long-term planning.
 
 ## Business Objectives
-### **Revenue Analysis:**
+### Revenue Analysis
 Revenue streams were analyzed by analyzing product performance, customer segments, key sales and return indicators, and contribution by country.
-- **Customer Insights:**
+### Customer Insights
 Measure customer retention analyzed, top buyers, revenue concentration (Pareto), and calculate a basic Customer Lifetime Value (CLV) to support acquisition and loyalty strategies.
-- **Time-Based Performance:**
+### Time-Based Performance
 All indicators and important information about trends in times when customers interact most and least with the company.
 
 ## Project Pipeline
