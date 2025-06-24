@@ -50,28 +50,17 @@ All indicators and important information about trends in times when customers in
 - Dashboard designed for executive-level storytelling, different pages and performance indicators.
 
 ## Skills / Concepts Demonstrated
-- End-to-end data pipeline creation (ETL/ELT)
-- Python scripting for automation
-- DuckDB as a fast, embedded analytical engine
-- SQL transformations with DBT
-- Exploratory Data Analysis (EDA) in Jupyter
+- End-to-end data pipeline creation (ETL/ELT).
+- Python scripting for automation.
+- DuckDB as a fast, embedded analytical engine.
+- SQL transformation with DBT for practice.
+- Exploratory Data Analysis (EDA) in Jupyter Notebook.
 - Power BI visualization and DAX modeling
-- KPI creation: Return Rate, Customer Retention, CLV, Pareto
+- KPI creation: Return Rate, Customer Retention, CLV, Pareto, Peak Sales Hour, Top 5% Revenue, etc.
+
+## 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-## Business Objectives
 
 
 
