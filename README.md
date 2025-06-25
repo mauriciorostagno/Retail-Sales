@@ -78,7 +78,38 @@ Page name: Customer Insights
 Page name: Time-Based Performance
 <img src="images/dashboard-timepage.png" alt="Time Page" width="930"/>
 
-## Dashboard Features
+## Dashboard Features - Key Components
+
+1. Revenue KPIs
+- Total Revenue, Average revenue per Customer (ARPC), and Top 5 Products by Revenue
+    `total_sales_value = 
+CALCULATE(
+    SUM('df'[total_income]),
+    'df'[quantity] > 0
+  )`
+
+3. Return Rate Analysis
+   - Percentage of returned products (units and rate), financial impact visualized
+   
+5. Customer Retention
+   -
+   
+7. Top 5% Customers
+   -
+   
+9. Pareto 80/20 Analysis
+    -
+   
+11. Customer Lifetime Value (Simple Model)
+    -
+    
+13. Time-Based Sales Trends
+    -
+    
+15. Geographical Insights
+    -
+    
+17. as
 
 
 
