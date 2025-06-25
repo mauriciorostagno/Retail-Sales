@@ -68,10 +68,13 @@ The report consists in 1 front page and 3 sections with different information.
 
 Page name: Front Page
 <img src="images/dashboard-frontpage.png" alt="Front Page" width="930"/>
+
 Page name: Sales Overview
 <img src="images/dashboard-salespage.png" alt="Sales Page" width="930"/>
+
 Page name: Customer Insights
 <img src="images/dashboard-customerpage.png" alt="Customer Page" width="930"/>
+
 Page name: Time-Based Performance
 <img src="images/dashboard-timepage.png" alt="Time Page" width="930"/>
 
