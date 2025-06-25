@@ -81,17 +81,26 @@ Page name: Time-Based Performance
 ## Dashboard Features - Key Components
 
 1. Revenue KPIs
-- Total Revenue, Average revenue per Customer (ARPC), and Top 5 Products by Revenue
+
+   - Total Revenue, Average revenue per Customer (ARPC), and Top 5 Products by Revenue
+
     `total_sales_value = 
 CALCULATE(
     SUM('df'[total_income]),
     'df'[quantity] > 0
   )`
 
-3. Return Rate Analysis
+2. Return Rate Analysis
+
    - Percentage of returned products (units and rate), financial impact visualized
+
+   `total_returns_value = 
+CALCULATE(
+    ABS(SUM('df'[total_income])),
+    'df'[quantity] < 0
+)`
    
-5. Customer Retention
+3. Customer Retention
    -
    
 7. Top 5% Customers
