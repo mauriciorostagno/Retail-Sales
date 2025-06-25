@@ -226,13 +226,7 @@ RETURN
     
 11. Geographical Insights
     
-    -
-
-    
-13. as
-
-
-
+    - Country-level sales distribution to support regional growth strategy
 
 
 ## Findings and Insights
