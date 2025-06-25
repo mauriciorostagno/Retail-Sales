@@ -224,13 +224,38 @@ RETURN
     FORMAT(BestHour, "00") & "hs"
 `
     
-11. Geographical Insights
+8. Geographical Insights
     
     - Country-level sales distribution to support regional growth strategy
 
 
 ## Findings and Insights
 
+1) Revenue Drivers
+
+- The products REGENCY CAKESTAND 3 TIER, WHITE HANGING HEART T-LIGHT HOLDER, JUMBO BAG RED RETROSPORT, PARTY BUNTING, POSTAGE, ASSORTED COLOUR BIRD ORNAMENT, RABBIT NIGHT LIGHT, CHILLI LIGHTS, PAPER CHAIN KIT 50'S CHRISTMAS and PICNIC BASKET WICKER 60 PIECES  generate over 8.16% of total revenue (of 3886 different items).
+- The most profitable item is: REGENCY CAKESTAND 3 TIER.
+   
+2) Returns Behavior
+
+- Returns represent approximately 19.7% of units and 16.5% of revenue, mostly occurring during the last quarter of the year.
+   
+3) Customer Retention
+
+- Around 98.9% of customers are repeat buyers, indicating opportunities for targeted loyalty efforts.
+   
+4) Revenue Concentration
+
+- The top 1% of customers generate 31.75% of revenue.
+   
+5) Time Trends
+
+- Highest revenue observed between [11am–3pm] and on [Fridays], suggesting optimal promotion windows.
+    
+6) Geographic Trends
+
+- Strong sales in countries like United Kingdom (83.4% of total revenue) and Netherlands, Ireland, Germany, etc, indicating potential for localized marketing and logistics improvements.
+    
 ## Conclusion & Recommendations
 
 
