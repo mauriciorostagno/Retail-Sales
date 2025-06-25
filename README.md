@@ -122,8 +122,26 @@ RETURN DIVIDE(RepeatCustomers, TotalCustomers)`
    `order_frequency = 
 DIVIDE([total_orders], [unique_customers])`
    
-7. Top 5% Customers
-   -
+4. Top 5% Customers
+   - High-value quantity of customers identified
+     
+     `top_5%_customers_count = 
+VAR CustomerTable =
+    SUMMARIZE(
+        'df',
+        'df'[id_customer],
+        "total_income", SUM('df'[total_income])
+    )
+VAR Percentile95 =
+    PERCENTILEX.INC(CustomerTable, [total_income], 0.95)
+RETURN
+    COUNTROWS(
+        FILTER(
+            CustomerTable,
+            [total_income] >= Percentile95
+        )
+    )
+`
    
 9. Pareto 80/20 Analysis
     -
