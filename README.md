@@ -101,7 +101,26 @@ CALCULATE(
 )`
    
 3. Customer Retention
-   -
+
+   - One-time vs. repeat buyer ratio and Order frecuency throughout the year
+   
+   `customer_retention_rate = 
+VAR TotalCustomers =
+    CALCULATE(
+        DISTINCTCOUNT('df'[id_customer])
+    )
+VAR RepeatCustomers =
+    CALCULATE(
+        DISTINCTCOUNT('df'[id_customer]),
+        FILTER(
+            'df',
+            CALCULATE(COUNTROWS('df'), ALLEXCEPT('df', 'df'[id_customer])) > 1
+        )
+    )
+RETURN DIVIDE(RepeatCustomers, TotalCustomers)`
+   
+   `order_frequency = 
+DIVIDE([total_orders], [unique_customers])`
    
 7. Top 5% Customers
    -
