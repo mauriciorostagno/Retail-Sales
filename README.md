@@ -258,10 +258,32 @@ RETURN
     
 ## Conclusion & Recommendations
 
-- 
+This project demonstrates how a fully structured data pipeline combined with an interactive Power BI dashboard can empower data-driven decision-making directly  and support recommendations provided to the CEO and CMO for immediate and long-term planning:
 
+1) Focus on Top-Selling Products for Scalable Growth
 
+   - *Insight*: The top 10 products currently account for over 8.16% of total revenue.
+   - *Recommendation*: Prioritize these products in marketing campaigns, for example, with upselling and cross-selling campaigns by grouping them into promotions. Also prioritize them when controlling inventory to avoid missing any sales opportunities.
 
+2) Address Losses from High-Return Categories
+
+   - *Insight*: Returns represent 19.7% of units and 16.5% of revenue, with clear peaks in returns within the last quarter of the year.
+   - *Recommendation*: Prioritize these products for quality reviews, as they are most frequently returned. Gather relevant information on these products' discrepancies with customer expectations and focus on improving each of these aspects to minimize the financial impact of returns without reducing customer satisfaction.
+
+3) Mantain Revenue Through Customer Retention
+
+   - *Insight*:  Approximately 98.9% of customers are repeat buyers, indicating a significant base of loyal clients.
+   - *Recommendation*: Focus on nurturing existing customers and further building their loyalty with premium experiences. Implementing personalized cross-selling and upselling strategies to increase the average purchase value or quantity can significantly improve this indicator, which already shows very good results.
+
+4) Expand in High-Revenue Countries
+
+   - *Insight*: 
+   - *Recommendation*:
+
+5) Capitalize on Time-Based Revenue Patterns
+
+   - *Insight*: 
+   - *Recommendation*:
 
 
 
