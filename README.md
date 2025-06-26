@@ -250,7 +250,7 @@ RETURN
    
 5) Time Trends
 
-   - Highest revenue observed between [11am–3pm] and on [Fridays], suggesting optimal promotion windows.
+   - Highest revenue observed between 10am–3pm and on Thursdays, suggesting optimal promotion windows.
     
 6) Geographic Trends
 
@@ -277,18 +277,11 @@ This project demonstrates how a fully structured data pipeline combined with an 
 
 4) Expand in High-Revenue Countries
 
-   - *Insight*: 
-   - *Recommendation*:
+   - *Insight*: Countries such as Netherlands, Ireland, Germany, France and Australia consistently outperform others in total revenue and average revenue per invoice.
+   - *Recommendation*: It would be a good idea to consider expanding distribution centers in these regions to further tap into local demand, all while supporting marketing budgets.
 
 5) Capitalize on Time-Based Revenue Patterns
 
-   - *Insight*: 
-   - *Recommendation*:
-
-
-
-
-
-
-
+   - *Insight*: Sales are highest between 10am and 3pm, and on Tuesday, Wednesday and Thursdays.
+   - *Recommendation*: Scheduling digital ads, social media posts, and promotional offers around these peak periods will help further maximize conversion rates.
 
